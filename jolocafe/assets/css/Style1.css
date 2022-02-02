@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    color: white;
+    background: url("../../assets/img/Coffee3.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 10!important;
+}
+.white {
+  color: white!important;
+}
+.Beverages {
+    color: white;
+    background: url("../../assets/img/Beverages.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 10!important;
+}
+.menu {
+    color: white;
+    background: url("../../assets/img/Gourmet.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 10!important;
+}
+.price{
+  color: lightblue;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@font-face {
+    font-family: 'Playlist-Script';
+    src:url('../../assets/fonts/Playlist Script.otf') format('opentype');
+  }
+
+.hashtag {
+  font-family: 'Playlist-Script';
+  font-size: 100px!important;
+  color: skyblue!important;
+}
+
+.home .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.home .navbar {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-bottom:none;
+    background-color: transparent;
+    min-width: 300px;
+    border: none;
+}
+
+.home .navbar-default .navbar-nav>.open>a,
+.home .navbar-default .navbar-nav>.open>a:focus,
+.home .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.home .nav>li>a:focus,
+.home .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.home .navbar-nav>li {
+    margin-right: 20px;
+}
+
+.home .navbar-nav {
+   margin-top: 12px;
+}
+
+.home .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+.home .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.home .navbar-brand {
+    color: black;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home .navbar-brand:hover {
+    color: #ccc;
+}
+
+.home .hero {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.home .hero h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 36px;
+}
+
+
+.home .hero p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 22px;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.home .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fffbfb !important;
+    outline:none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 18px 24px;
+    transition:0.2s background-color;
+}
+.firstlinks{
+  color: #fff;
+}
+
+.home .btn-primary:hover {
+    background-color:rgba(255,255,255,0.1);
+}
+
+.home .btn-primary:active {
+    transform:translateY(1px);
+}
+
+@media screen and (max-width: 767px) {
+
+    .home .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .home .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #ccc;
+    }
+
+    .home .navbar-collapse {
+        margin-left: 20px;
+        border-top: none;
+        box-shadow: none;
+    }
+
+    .home .hero{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .home .hero h1{
+        font-size: 42px;
+    }
+}
